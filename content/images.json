@@ -1,0 +1,207 @@
+{
+  "gallery": [
+    {
+      "id": "gallery_workbench",
+      "src": "/assets/work/workbench.webp",
+      "thumb": "/assets/work/workbench-sm.webp",
+      "w": 800,
+      "h": 600,
+      "title": "Πάγκος ξυλουργού",
+      "title_en": "Joiner’s workbench",
+      "subtitle": "Αναπαλαίωση",
+      "subtitle_en": "Restoration"
+    },
+    {
+      "id": "gallery_table",
+      "src": "/assets/work/table.webp",
+      "thumb": "/assets/work/table-sm.webp",
+      "w": 800,
+      "h": 1067,
+      "title": "Τραπέζι με πόδια Χ",
+      "title_en": "X-leg table",
+      "subtitle": "Μασίφ ξύλο, βαμμένο στο χέρι",
+      "subtitle_en": "Solid wood, hand-stained"
+    },
+    {
+      "id": "gallery_arched_window",
+      "src": "/assets/work/arched-window.webp",
+      "thumb": "/assets/work/arched-window-sm.webp",
+      "w": 800,
+      "h": 1067,
+      "title": "Τοξωτό παραθυρόφυλλο",
+      "title_en": "Arched window sash",
+      "subtitle": "Συντήρηση και βάψιμο",
+      "subtitle_en": "Repair and repaint"
+    },
+    {
+      "id": "gallery_bowl",
+      "src": "/assets/work/bowl.webp",
+      "thumb": "/assets/work/bowl-sm.webp",
+      "w": 800,
+      "h": 768,
+      "title": "Μπολ στον τόρνο",
+      "title_en": "Turned bowl",
+      "subtitle": "Ξυλοτορνευτική",
+      "subtitle_en": "Woodturning"
+    },
+    {
+      "id": "gallery_tool_cabinet",
+      "src": "/assets/work/tool-cabinet.webp",
+      "thumb": "/assets/work/tool-cabinet-sm.webp",
+      "w": 800,
+      "h": 1067,
+      "title": "Εργαλειοθήκη τοίχου",
+      "title_en": "Wall tool cabinet",
+      "subtitle": "Εργαλεία χειρός",
+      "subtitle_en": "Hand tools"
+    },
+    {
+      "id": "gallery_windows_night",
+      "src": "/assets/work/arched-windows-night.webp",
+      "thumb": "/assets/work/arched-windows-night-sm.webp",
+      "w": 800,
+      "h": 600,
+      "title": "Τοξωτά παράθυρα στη θέση τους",
+      "title_en": "Arched windows back in place",
+      "subtitle": "Συντήρηση κουφωμάτων",
+      "subtitle_en": "Window restoration"
+    },
+    {
+      "id": "gallery_frame",
+      "src": "/assets/work/frame.webp",
+      "thumb": "/assets/work/frame-sm.webp",
+      "w": 800,
+      "h": 1067,
+      "title": "Κορνίζα",
+      "title_en": "Picture frame",
+      "subtitle": "Χειροποίητη και βαμμένη",
+      "subtitle_en": "Handmade and stained"
+    },
+    {
+      "id": "gallery_chisel",
+      "src": "/assets/work/chisel.webp",
+      "thumb": "/assets/work/chisel-sm.webp",
+      "w": 800,
+      "h": 600,
+      "title": "Σκαρπέλο στον πάγκο",
+      "title_en": "Chisel on the bench",
+      "subtitle": "Λεπτομέρεια",
+      "subtitle_en": "Detail"
+    },
+    {
+      "id": "gallery_bed",
+      "src": "/assets/work/bed.webp",
+      "thumb": "/assets/work/bed-sm.webp",
+      "w": 800,
+      "h": 600,
+      "title": "Διπλό κρεβάτι",
+      "title_en": "Double bed",
+      "subtitle": "Ιδιοκατασκευή",
+      "subtitle_en": "Built from scratch"
+    },
+    {
+      "id": "gallery_moulding",
+      "src": "/assets/work/moulding.webp",
+      "thumb": "/assets/work/moulding-sm.webp",
+      "w": 800,
+      "h": 1067,
+      "title": "Διακοσμητικό προφίλ",
+      "title_en": "Decorative moulding",
+      "subtitle": "Κομμένο στο ρούτερ",
+      "subtitle_en": "Cut on the router table"
+    },
+    {
+      "id": "gallery_sharpener",
+      "src": "/assets/work/sharpener.webp",
+      "thumb": "/assets/work/sharpener-sm.webp",
+      "w": 800,
+      "h": 1067,
+      "title": "Παλιά ξύστρα γραφείου",
+      "title_en": "Vintage desk sharpener",
+      "subtitle": "Καθαρισμός και γυάλισμα",
+      "subtitle_en": "Cleaned and polished"
+    },
+    {
+      "id": "gallery_workshop",
+      "src": "/assets/work/workshop.webp",
+      "thumb": "/assets/work/workshop-sm.webp",
+      "w": 800,
+      "h": 600,
+      "title": "Το εργαστήρι",
+      "title_en": "The workshop",
+      "subtitle": "",
+      "subtitle_en": ""
+    }
+  ],
+  "beforeAfter": [
+    {
+      "id": "pair_workbench",
+      "before": "/assets/work/workbench-before.webp",
+      "after": "/assets/work/workbench-after.webp",
+      "layout": "side",
+      "ratio": "4 / 3",
+      "title": "Πάγκος ξυλουργού",
+      "title_en": "Joiner’s workbench",
+      "text": "Ένας παλιός πάγκος με νέα συρτάρια, μπρούντζινα εξαρτήματα και σκούρο φινίρισμα.",
+      "text_en": "An old bench with new drawers, brass hardware and a dark finish."
+    },
+    {
+      "id": "pair_1",
+      "before": "/assets/work/window-before.webp",
+      "after": "/assets/work/window-after.webp",
+      "layout": "slider",
+      "ratio": "4 / 3",
+      "title": "Τοξωτά παραθυρόφυλλα",
+      "title_en": "Arched window sashes",
+      "text": "Τα σάπια κομμάτια αντικαταστάθηκαν, το ξύλο τρίφτηκε και βάφτηκε ξανά.",
+      "text_en": "Rotten sections replaced, the wood sanded back and repainted."
+    },
+    {
+      "id": "pair_table",
+      "before": "/assets/work/table-before.webp",
+      "after": "/assets/work/table-after.webp",
+      "layout": "side",
+      "title": "Τραπέζι με πόδια Χ",
+      "title_en": "X-leg table",
+      "text": "Από σκέτες σανίδες σε τελειωμένο τραπέζι.",
+      "text_en": "From plain boards to a finished table."
+    },
+    {
+      "id": "pair_sharpener",
+      "before": "/assets/work/20260309-200615.webp",
+      "after": "/assets/work/20260411-213810.webp",
+      "layout": "slider",
+      "title": "Παλιά ξύστρα γραφείου",
+      "title_en": "Vintage desk sharpener",
+      "text": "Η σκουριά και η βρωμιά έφυγαν και το μέταλλο γυάλισε ξανά.",
+      "text_en": "Rust and grime removed, the metal polished again.",
+      "ratio": "1800 / 1350"
+    }
+  ],
+  "projects": {
+    "furniture": {
+      "id": "project_furniture",
+      "src": "/assets/work/table.webp",
+      "title": "Τραπέζι με πόδια Χ",
+      "title_en": "X-leg table"
+    },
+    "restoration": {
+      "id": "project_restoration",
+      "src": "/assets/work/workbench.webp",
+      "title": "Πάγκος ξυλουργού",
+      "title_en": "Joiner’s workbench"
+    },
+    "custom": {
+      "id": "project_custom",
+      "src": "",
+      "title": "Διπλό κρεβάτι",
+      "title_en": "Double bed"
+    },
+    "small": {
+      "id": "project_small",
+      "src": "/assets/work/bowl.webp",
+      "title": "Μπολ στον τόρνο",
+      "title_en": "Turned bowl"
+    }
+  }
+}

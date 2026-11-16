@@ -1,0 +1,68 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "en"
+
+collections:
+  - name: "images"
+    label: "Φωτογραφίες Site"
+    files:
+      - name: "images"
+        label: "Gallery, Before/After & Projects"
+        file: "content/images.json"
+        fields:
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID (μην το αλλάξεις)", name: "id", widget: "string" }
+              - { label: "Φωτογραφία", name: "src", widget: "image" }
+              - { label: "Τίτλος", name: "title", widget: "string" }
+              - { label: "Υπότιτλος", name: "subtitle", widget: "string", required: false }
+
+          - label: "Before & After"
+            name: "beforeAfter"
+            widget: "list"
+            summary: "{{fields.id}}"
+            fields:
+              - { label: "ID (μην το αλλάξεις)", name: "id", widget: "string" }
+              - { label: "Φωτογραφία Πριν", name: "before", widget: "image", required: false }
+              - { label: "Φωτογραφία Μετά", name: "after", widget: "image", required: false }
+
+          - label: "Projects"
+            name: "projects"
+            widget: "object"
+            fields:
+              - label: "Έπιπλα (Furniture)"
+                name: "furniture"
+                widget: "object"
+                fields:
+                  - { label: "ID", name: "id", widget: "hidden", default: "project_furniture" }
+                  - { label: "Φωτογραφία", name: "src", widget: "image", required: false }
+                  - { label: "Τίτλος", name: "title", widget: "string" }
+              - label: "Αποκαταστάσεις (Restoration)"
+                name: "restoration"
+                widget: "object"
+                fields:
+                  - { label: "ID", name: "id", widget: "hidden", default: "project_restoration" }
+                  - { label: "Φωτογραφία", name: "src", widget: "image", required: false }
+                  - { label: "Τίτλος", name: "title", widget: "string" }
+              - label: "Custom Builds"
+                name: "custom"
+                widget: "object"
+                fields:
+                  - { label: "ID", name: "id", widget: "hidden", default: "project_custom" }
+                  - { label: "Φωτογραφία", name: "src", widget: "image", required: false }
+                  - { label: "Τίτλος", name: "title", widget: "string" }
+              - label: "Μικρές Δημιουργίες (Small)"
+                name: "small"
+                widget: "object"
+                fields:
+                  - { label: "ID", name: "id", widget: "hidden", default: "project_small" }
+                  - { label: "Φωτογραφία", name: "src", widget: "image", required: false }
+                  - { label: "Τίτλος", name: "title", widget: "string" }
