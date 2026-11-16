@@ -89,17 +89,6 @@
       "subtitle_en": "Detail"
     },
     {
-      "id": "gallery_bed",
-      "src": "/assets/work/bed.webp",
-      "thumb": "/assets/work/bed-sm.webp",
-      "w": 800,
-      "h": 600,
-      "title": "Διπλό κρεβάτι",
-      "title_en": "Double bed",
-      "subtitle": "Ιδιοκατασκευή",
-      "subtitle_en": "Built from scratch"
-    },
-    {
       "id": "gallery_moulding",
       "src": "/assets/work/moulding.webp",
       "thumb": "/assets/work/moulding-sm.webp",
